@@ -21,7 +21,7 @@ def log_in_as(user, options = {})
 
 else
 
-session[:user_id] = user_id
+session[:user_id] = user.id
  end
 end
 
