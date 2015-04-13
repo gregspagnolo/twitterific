@@ -3,8 +3,8 @@ if Rails.env.production?
     config.fog_credentials = {
       # Configuration for Amazon S3
       :provider              => 'AWS',
-      :aws_access_key_id     => ENV['AKIAJU2JD54LEEI6S3AQ'],
-      :aws_secret_access_key => ENV['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']
+      :aws_access_key_id     => ENV['AKIAJTK7LVWUBJIXNHZA'],
+      :aws_secret_access_key => ENV['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']
     }
     config.fog_directory     =  ENV['gmstwitter']
   end
